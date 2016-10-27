@@ -15,4 +15,5 @@ Vagrant.configure(2) do |config|
     v.memory = $vm_memory
   end
 
+  config.vm.provision :shell, path: "scripts/provision.sh"
 end
