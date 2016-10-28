@@ -15,5 +15,7 @@ Vagrant.configure(2) do |config|
     v.memory = $vm_memory
   end
 
+  config.vm.synced_folder "./public", "/var/www/html"
+  
   config.vm.provision :shell, path: "scripts/provision.sh"
 end
