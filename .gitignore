@@ -5,5 +5,8 @@
 .*.sw?
 *~
 
+# python
+*.pyc
+
 # Vagrant stuff
 .vagrant
