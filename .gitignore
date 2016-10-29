@@ -8,5 +8,8 @@
 # python
 *.pyc
 
+# composer
+vendor/*
+
 # Vagrant stuff
 .vagrant
