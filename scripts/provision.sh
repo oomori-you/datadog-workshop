@@ -14,6 +14,9 @@ add-apt-repository ppa:ondrej/php
 apt-get update
 apt-get -y install php7.0
 
+# composer
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
 # pip
 apt-get update
 apt-get -y install python-pip
