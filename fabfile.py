@@ -1,3 +1,4 @@
+# coding:utf-8
 """Example of integration between Fabric and Datadog.
 """
 
@@ -16,7 +17,7 @@ ab_command = "ab -n 10000000 -c 5 http://localhost/info.php"
 @task
 @notify
 def test_notify():
-  print(green("send datadog event"))
+  print(cyan("send datadog event"))
 
 @task
 @notify
